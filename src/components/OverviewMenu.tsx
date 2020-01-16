@@ -21,8 +21,9 @@ const OverviewMenu: React.FC = () => {
 	const [posts, setPosts] = useState([]);
 
 	const fetchPosts = async () => {
-		const response = await fetchData.get("/");
-		const fetched = response.data.data;
+		const response = await fetchData.get("");
+		const fetched = response.data;
+		console.log(response)
 		setPosts(fetched);
 	}
 
