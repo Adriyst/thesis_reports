@@ -47,14 +47,16 @@ const OverviewMenu: React.FC = () => {
 					<h3 onClick={() => setVisible(semester.num)}>Semester #{semester.num}</h3>
 					<div style={{ visibility: "hidden", width: "80%" }} id={`sem_${semester.num}`}>
 						{semester.sprints.map((sprint: Sprint) => (
+							<div>
 							<Link key={sprint.id} to={{
 								pathname: `/report/${sprint.id}`,
 								state: {
 									name: sprint.text
 								}
 							}}>{sprint.start} - {sprint.end}</Link>
+							<br />
+							</div>
 						))}
-						<br />
 					</div>
 				</div>
 			)
