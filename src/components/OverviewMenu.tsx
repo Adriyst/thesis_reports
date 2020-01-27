@@ -52,8 +52,9 @@ const OverviewMenu: React.FC = () => {
 								state: {
 									name: sprint.text
 								}
-							}}>{sprint.start} - {sprint.end}\n</Link>
+							}}>{sprint.start} - {sprint.end}</Link>
 						))}
+						<br />
 					</div>
 				</div>
 			)
