@@ -111,3 +111,9 @@ a:hover {
 .portrait {
 	width: 75%;
 }
+
+.inline_image {
+	width: 80%;
+	margin-bottom: 3%;
+	border: 1px solid #A7D6FF;
+}
