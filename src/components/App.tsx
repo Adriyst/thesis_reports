@@ -6,6 +6,7 @@ import OverviewMenu from './OverviewMenu';
 import Report from './Report';
 import Header from './Header';
 import About from './About';
+import LatexMenu from './LatexMenu'
 
 import '../css/App.css';
 
