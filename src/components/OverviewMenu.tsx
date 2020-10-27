@@ -69,6 +69,7 @@ const OverviewMenu: React.FC = () => {
 				<h3 onClick={() => setVisible(2)}>Semester #2</h3>
 				<div style={{ visibility: "hidden", width: "80%" }} id="sem_2">
 					<a href="https://adriyst.github.io/report_endpoint/august.pdf">August</a>
+					<br />
 					<a href="https://adriyst.github.io/report_endpoint/september.pdf">September</a>
 				</div>
 			</div>
